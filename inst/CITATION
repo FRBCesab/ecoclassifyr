@@ -1,0 +1,10 @@
+citHeader("To cite ecoclassifyr in publications use:")
+
+bibentry(
+  bibtype = "Manual",
+  title   = "ecoclassifyr: {An} {R} package to ...",
+  author  = c(person("Casajus Nicolas")),
+  year    = "2024",
+  note    = "R package version 0.0.0.9000",
+  url     = "https://github.com/frbcesab/ecoclassifyr"
+)
