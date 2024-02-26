@@ -1,18 +1,17 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # ecoclassifyr <img src="man/figures/package-sticker.png" align="right" style="float:right; height:120px;"/>
 
 <!-- badges: start -->
 
-[![CRAN
-status](https://www.r-pkg.org/badges/version/ecoclassifyr)](https://CRAN.R-project.org/package=ecoclassifyr)
 [![R CMD
 Check](https://github.com/frbcesab/ecoclassifyr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/frbcesab/ecoclassifyr/actions/workflows/R-CMD-check.yaml)
 [![Website](https://github.com/frbcesab/ecoclassifyr/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/frbcesab/ecoclassifyr/actions/workflows/pkgdown.yaml)
-[![Test
-coverage](https://github.com/frbcesab/ecoclassifyr/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/frbcesab/ecoclassifyr/actions/workflows/test-coverage.yaml)
 [![codecov](https://codecov.io/gh/frbcesab/ecoclassifyr/branch/main/graph/badge.svg)](https://codecov.io/gh/frbcesab/ecoclassifyr)
-[![License: GPL (&gt;=
+[![CRAN
+status](https://www.r-pkg.org/badges/version/ecoclassifyr)](https://CRAN.R-project.org/package=ecoclassifyr)
+[![License: GPL (\>=
 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->
 
@@ -42,17 +41,21 @@ FEATURES }}**
 You can install the development version from
 [GitHub](https://github.com/) with:
 
-    ## Install < remotes > package (if not already installed) ----
-    if (!requireNamespace("remotes", quietly = TRUE)) {
-      install.packages("remotes")
-    }
+``` r
+## Install < remotes > package (if not already installed) ----
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
 
-    ## Install < ecoclassifyr > from GitHub ----
-    remotes::install_github("frbcesab/ecoclassifyr")
+## Install < ecoclassifyr > from GitHub ----
+remotes::install_github("frbcesab/ecoclassifyr")
+```
 
 Then you can attach the package `ecoclassifyr`:
 
-    library("ecoclassifyr")
+``` r
+library("ecoclassifyr")
+```
 
 ## Get started
 
@@ -66,10 +69,10 @@ vignette.
 `ecoclassifyr` provides **{{ NUMBER OF VIGNETTES }}** vignettes to learn
 more about the package:
 
--   the [Get
-    started](https://frbcesab.github.io/ecoclassifyr/articles/ecoclassifyr.html)
-    vignette describes the core features of the package
--   **{{ LIST ADDITIONAL VIGNETTES }}**
+- the [Get
+  started](https://frbcesab.github.io/ecoclassifyr/articles/ecoclassifyr.html)
+  vignette describes the core features of the package
+- **{{ LIST ADDITIONAL VIGNETTES }}**
 
 ## Citation
 
